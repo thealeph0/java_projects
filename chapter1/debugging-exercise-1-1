@@ -1,8 +1,8 @@
 public class DebugOne1
 {
-   /* This program displays a greeting */
-   public static void main(String[] args)
+   /* This program displays a greeting */  /* did not close the comment */
+   public static void main(String[] args)  /* include the keyword static */
    {
-      System.out.println("Hello");
+      System.out.println("Hello");         /* semicolon */
    }
 }
