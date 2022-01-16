@@ -1,0 +1,9 @@
+public class DebugOne3
+{
+   public static void main(String[] args) /*missing the brackets after String */
+   {
+      System.out.println("Over the river"); /*hidden 1 within println */
+      System.out.println("and through the woods"); /*hidden 1 withing println */
+      System.out.println("to Grandmother's house we go"); /*need to capitalize the s in System */
+   }
+}
