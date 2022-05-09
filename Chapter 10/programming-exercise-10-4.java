@@ -50,3 +50,29 @@ public class Haiku extends Poem
          super(t,3);
      }
 }
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+public class Poem
+{
+    private String title;
+    private int lines;
+
+    Poem(String t, int l)
+    {
+        title = t;
+        lines = l;
+    }
+
+    public String getTitle()
+    {
+        return title;
+    }
+
+    public int getLines()
+    {
+        return lines;
+    }
+
+}
+
